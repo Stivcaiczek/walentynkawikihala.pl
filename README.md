@@ -1,0 +1,2 @@
+# walentynkawikihala.pl
+ez
