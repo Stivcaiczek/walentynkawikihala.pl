@@ -4,8 +4,9 @@ body, html
     padding: 0;
     height: 100%;
     width: 100%;
-    font-family: Arial, sans-serif;
     color: #F677C0;
+    font-family: "Playwrite NZ Basic", cursive;
+    line-height: 1.0;
 
 }
 header 
