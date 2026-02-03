@@ -1,0 +1,10 @@
+dzień 0
+plan czyli dzisiaj :)
+dzień 1
+index + css 
+strona głowna która wpłuszcza do strony z 2 linkami jeden do kalkulatora jeden do piosenek
+dzień 2 
+piosenki
+Skrypt kalkulatora poprawki stron
+dzień 3
+piosenki 

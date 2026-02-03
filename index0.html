@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Hej wika!</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <h1 class="pytanie">Zostaniesz Moją Walentynką?</h1>
+    </header>
+    <section class="obrazek">
+        <img src="obrazek.jpg" alt="Obrazek" style="width: 100%; height: auto;">
+    </section>
+    <main class="guzik">
+        <section class="Nie"><button id="nie" onclick="plus()" >NIE</button></section>
+        <section class="Tak"><button id="kys" onclick="href()">TAK</button></section>
+    </main>
+    <script>
+        function plus() {
+            const increment = 10;
+            const btn = document.getElementById("kys");
+            const style = window.getComputedStyle(btn);
+            const f = parseFloat(style.fontSize) || 0;
+            btn.style.fontSize = (f + increment) + "px";
+            if (f + increment >= 180) {
+                document.getElementById("nie").style.display = "none";
+            }
+
+        }
+        function href() {
+            window.location.href = "index1.html";
+        }
+    </script>
+\
+</body>

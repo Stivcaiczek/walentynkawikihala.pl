@@ -1,0 +1,180 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    color: #F677C0;
+
+}
+header 
+{
+    background-color: #ffccdd;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+h1
+{
+    font-weight: 900;
+}
+p
+{
+    font-size: 150%;
+    font-weight: 500;
+}
+aside.lewy 
+{
+    width: 25%;
+    height: 70%;
+    float: left;
+    background-color: #ffd9e6;
+    text-align: center;
+    align-items: center;
+}
+aside.lewyp
+{
+    width: 24%;
+    height: 70%;
+    float: left;
+    background-color: #ffd9e6;
+    text-align: center;
+    align-items: center;
+}
+a
+{
+    text-decoration:underline;
+    color: #F677C0;
+}
+li
+{
+    font-size: 150%;
+    font-weight: 500;
+}
+h2
+{
+    font-size: 200%;
+    font-weight: 900;
+}
+nav
+{
+    width: 1%;
+    height: 70%;
+    float: left;
+    background-color: #ffccdd;
+}
+main
+{
+    width: 48%;
+    height: 70%;
+    float: left;
+    background-color: #ffd9e6;
+}
+aside.prawy {
+    width: 25%;
+    height: 35%;
+    float: right;
+    background-color: #ffd9e6;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+
+}
+footer 
+{
+    clear: both;
+    background-color: #ffccdd;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+h1.pytanie
+{
+    font-size: 100px;
+    margin: 20px;
+}
+main.guzik
+{
+    text-align: center;
+    background-color: #ffccdd;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 20px;              
+    box-sizing: border-box;
+    height: 70%;
+}
+section.Nie
+{
+    background-color: #ffccdd;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+section.Tak
+{
+    background-color: #ffccdd;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+section.obrazek
+{
+    background-color: #ffccdd;
+    height: 10%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: center; 
+    align-items: center;   
+    float: left;
+}
+button
+{
+    font-size: 24px;
+    background-color: #F677C0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+audio
+{
+    display: block;
+    margin: 0 auto;
+    transform: scale(1.5);
+
+} 
+button.ludzie
+{
+    background-color: #F677C0;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-items: left;
+    align-items: left;
+    text-align: left;
+}
+.jezu
+{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 750%;
+}
