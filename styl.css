@@ -6,7 +6,7 @@ body, html
     width: 100%;
     color: #F677C0;
     font-family: "Playwrite NZ Basic", cursive;
-    line-height: 1.0;
+    line-height: 1.1;
 
 }
 header 
@@ -74,6 +74,9 @@ main
     height: 70%;
     float: left;
     background-color: #ffd9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 aside.prawy {
     width: 25%;
@@ -111,7 +114,7 @@ main.guzik
     align-items: center;     
     gap: 20px;              
     box-sizing: border-box;
-    height: 70%;
+    height: 50%;
 }
 section.Nie
 {
@@ -119,8 +122,10 @@ section.Nie
     height: 100px;
     width: 100px;
     padding: 20px;
+    margin-right: 50px;
     box-sizing: border-box;
     float: left;
+    transform: scale(2);
 }
 section.Tak
 {
@@ -130,11 +135,13 @@ section.Tak
     padding: 20px;
     box-sizing: border-box;
     float: left;
+    margin-left: 50px;
+    transform: scale(2);
 }
 section.obrazek
 {
     background-color: #ffccdd;
-    height: 10%;
+    height: 30%;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
@@ -165,8 +172,8 @@ button.ludzie
     padding: 10px 20px;
     font-size: 24px;
     cursor: pointer;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
     justify-items: left;
     align-items: left;
     text-align: left;
@@ -178,4 +185,77 @@ button.ludzie
     left: 40%;
     transform: translate(-50%, -50%);
     font-size: 750%;
+}
+.wika
+{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+button.ludziewika
+{
+    background-color: #F677C0;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 290px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.plus2
+{
+    margin-top: 299px;
+    margin-right: 100px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    transform: scale(2);
+}
+.poprzednie
+{
+    margin-right: 50px;
+    transform: scale(5);
+}
+.nastepne
+{
+    margin-left: 50px;
+    transform: scale(5);
+}
+.gif1
+{
+    display: block;
+    margin: 0 auto;
+    transform: scale(1);
+}
+.gif2
+{
+    height: 30%;
+    width: 50%;
+    transform: scale(1);
+}
+.gif3
+{
+    height: 55%;
+    width: 75%;
+    transform: scale(0.8);
+    
+}
+.obrazki
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+    height: 600px;
+}
+.list
+{
+    font-size: 150%;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-right: 50px;
 }

@@ -21,10 +21,9 @@
         <h2>Kolejne strony! </h2>
             <li><a href="index2.html">Piosenki</a></li>
             <li><a href="index3.html">List</a></li>
-            <li><a href="index4.html">Małe co nieco?</a></li>
             <li><a href="index1.html">Powrót</a></li><br><br>
-
-           
+        <h2>Tutaj są nasze zdjęcia!!!</h2>
+           <img src="6.gif" class="gif3">
     </aside>
 
 
@@ -32,8 +31,28 @@
     </nav>
 
 
-    <main>
-        
+    <main id="super">
+        <span class="poprzednie" onclick="poprzednie()">&#8656;</span>
+        <img src="photo1.jpg" class="obrazki">
+        <span class="nastepne" onclick="nastepne()">&#8658;</span>
+        <script>
+        var zdj = document.getElementById("super")
+        var aktywne = 1;
+		function nastepne()
+		{
+		aktywne++;
+		zdj.innerHTML = `<span class="poprzednie" onclick="poprzednie()">&#8656;</span><img src="photo${aktywne}.jpg" class="obrazki">  <span class="nastepne" onclick="nastepne()">&#8658;</span>`;
+		if(aktywne>=9)
+		aktywne=1;
+		}
+		function poprzednie()
+		{
+		aktywne--;
+		zdj.innerHTML = `<span class="poprzednie" onclick="poprzednie()">&#8656;</span><img src="photo${aktywne}.jpg" class="obrazki">  <span class="nastepne" onclick="nastepne()">&#8658;</span>`;
+		if(aktywne<1)
+		aktywne = 9;
+		}
+	    </script>
     </main>
 
 

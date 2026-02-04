@@ -13,7 +13,7 @@
 <body>
     <header>
         <h1>Miłosa strona Pawełka dla Wikusi</h1>
-        <p>Mam nadziej że spodoba ci się mój pomysł na walentynke!</p>
+        <p>Mam nadzieję że podoba ci się mój pomysł na walentynke! </p>
         <p>Skoro nią już jesteś to zapraszam na pokazach moich umiejtnosci:</p>
     </header>
 
@@ -22,9 +22,9 @@
         <h2>Kolejne strony! </h2>
             <li><a href="index2.html">Piosenki</a></li>
             <li><a href="index3.html">List</a></li>
-            <li><a href="index4.html">Małe co nieco?</a></li>
             <li><a href="index5.html">Zdjęcia!</a></li><br><br>
         <h2>Pierwsze zobacz co jest tutaj!</h2>
+        <img src="5.gif" class="gif1">
     </aside>
 
 
@@ -32,16 +32,59 @@
     </nav>
 
 
-    <main>    
-        <button class="ludzie" id="1">Paweł</button><br>
-        <button class="ludzie" id="2">Patryk</button><br>
-        <button class="ludzie" id="3">Nertu</button><br>
-        <button class="ludzie" id="4">Skirka</button><br>
-        <button class="ludzie" id="5">Gabrysia</button> <span class="jezu">+</span><br>
-        <button class="ludzie" id="6">Karolinka</button><br>
-        <button class="ludzie" id="7">Wikusia</button><br>
-        <button class="ludzie" id="8">Katarzynka</button><br>
-        <button class="ludzie" id="9">Alisia</button><br>
+    <main>
+        <div class="wika">         
+        <button class="ludzie" id="1"onclick="to(1)">Paweł</button><br>
+        <button class="ludzie" id="2"onclick="to(2)">Patryk</button><br>
+        <button class="ludzie" id="3"onclick="to(3)">Nertu</button><br>
+        <button class="ludzie" id="4"onclick="to(4)">Skirka</button><br>
+        <button class="ludzie" id="5"onclick="to(5)">Gabrysia</button><br>
+        <button class="ludzie" id="6"onclick="to(6)">Karolinka</button><br>
+        <button class="ludzie" id="7"onclick="to(7)">Wikusia</button><br>
+        <button class="ludzie" id="8"onclick="to(8)">Katarzynka</button><br>
+        <button class="ludzie" id="9"onclick="to(9)">Alisia</button><br>
+        <button class="ludzie" id="9"onclick="to(10)">Łokieć</button><br>
+        <button class="ludzie" id="9"onclick="to(11)">Malwinka!</button><br>
+        </div>
+
+        <div class="wika">
+            <h1 class="plus2">+</h1>
+        </div>
+        <div class="wika">
+        <button class="ludziewika" id="wika">Wika</button>      
+        </div>
+        <div class="wika">
+            <p class="plus2" id="razem"></p> 
+        </div>
+        <script>
+            var razem = document.getElementById("razem");
+
+            function to(id)
+            {
+                if(id==1)
+                razem.innerHTML = `=100% dla Pawełka!`
+                if(id==2)
+                razem.innerHTML = `=0% dla Zjeba!`
+                if(id==3)
+                razem.innerHTML = `Ile byś mu dała?`
+                if(id==4)
+                razem.innerHTML = `kadżdy wie że jest twinkiem 69% dla SKIRY`
+                if(id==5)
+                razem.innerHTML = `no kurde jak tam z Gabą? jakieś ploteczki? slay?`
+                if(id==6)
+                razem.innerHTML = `no z Karolinką to wiadomo 101% dla niej! w końcu ślub macie lolz`
+                if(id==7)
+                razem.innerHTML = `Lezba ego top itp itd etc etc xDDD`
+                if(id==8)
+                razem.innerHTML = `Twoja Mamusia jest cudowną osobą 1000% dla niej!`
+                if(id==9)
+                razem.innerHTML = `żona z prl 101%(dodałem to podczas rozmowy)`
+                if(id==10)
+                razem.innerHTML = `Łokieć to kompletna sigma 102% dla niego!`
+                if(id==11)
+                razem.innerHTML = `Malwinka to prawie jak łokieć wieć 101% dlaczego? nie wiem wydaje się super osobą!`
+            }
+        </script>
 
 
     </main>
@@ -60,7 +103,7 @@
         <aside class="prawy">
 
         <audio controls >
-        <source src="glos.mp3" type="audio/mpeg" >
+        <source src="życzenia.mp3" type="audio/mpeg" >
         </audio>
         </audio>
     </aside>
