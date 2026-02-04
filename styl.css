@@ -228,7 +228,7 @@ button.ludziewika
 {
     display: block;
     margin: 0 auto;
-    transform: scale(1);
+    transform: scale(0.5);
 }
 .gif2
 {
@@ -258,4 +258,5 @@ button.ludziewika
     font-weight: 500;
     margin-left: 50px;
     margin-right: 50px;
+
 }
